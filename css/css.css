@@ -1,0 +1,76 @@
+.logincolor{
+    background: linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%);
+}
+
+.formulario img{
+    width: 29.5rem;
+    margin: 8rem 5rem 0rem 3rem;
+}
+
+.formulario h2{
+    color: #ffffff;
+    font-size: var(--size-h1);
+    font-weight: 600;
+    margin: 2.3rem 18.9rem 0rem 3rem;
+}
+
+.formulario h3{
+    color: rgba(255, 255, 255,0.6);
+    font-size: var(--size-h3);
+    font-weight: 400;
+    margin: 0.4rem 18.9rem 3rem 3rem;
+}
+
+/*  Formulario  */
+
+form {
+    width: 100%;
+    height: auto;
+
+    background-color:#ffffff;
+    border-radius: 4rem 4rem 0rem 0rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    color: var(--gris3);
+    margin-top: 5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form label input{
+    height: 4rem;
+    outline: none;
+
+    border: 0;
+    border-bottom: 0.1rem solid var(--gris3);
+    margin-top: 0.8rem;
+}
+
+form button{
+    background:linear-gradient(313.78deg, #2855ae -3.15%, #7292cf 100%);
+    border: none;
+    display: block;
+    width: 100%;
+    margin: 3rem auto;
+    color: #ffffff;
+    height: 4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+form a{
+    margin-bottom: 9rem;
+    text-decoration: none;
+    text-align: end;
+    font-size: var(--size-h3);
+    color: var(--gris1);
+    
+}
